@@ -1,0 +1,367 @@
+body {
+  margin: 0;
+  padding: 0;
+  margin-top: 2%;
+}
+/* debut du header*/
+.my-presentation {
+  font-size: 55px;
+}
+header {
+  background-color: white;
+  border-color: #000000;
+  box-shadow: #000000;
+  height: 10px;
+  margin-bottom: 10%;
+}
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#logo-image {
+  width: 70%;
+  border-radius: 50%;
+}
+.logo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 10%;
+}
+.nom {
+  margin-right: 40%;
+  font-family: ;
+}
+.image {
+  margin-left: 60%;
+}
+.lien {
+  display: flex;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+}
+a:hover {
+  transition: all 0.1s;
+  color: rgb(232, 248, 10);
+}
+.bouton {
+  display: flex;
+  color: black;
+  gap: 5px;
+}
+
+.login {
+  color: #000000;
+  border-color: rgb(232, 248, 10);
+  background-color: rgb(232, 248, 10);
+  width: 50%;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 40%;
+  font-size: 25px;
+}
+/* fin du header*/
+
+/* debut du main*/
+
+.presentation {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.presenter {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  margin-left: 10%;
+  margin-bottom: -45%;
+}
+#disculter {
+  border-style: solid;
+  border-radius: 10px;
+  height: 60px;
+  width: 100%;
+}
+#index-form {
+}
+p {
+  width: 70%;
+  height: auto;
+  margin-left: 20%;
+  font-size: 30px;
+}
+#login {
+  width: auto;
+  margin-left: 10%;
+}
+textarea {
+  border-radius: 5%;
+  font-size: 20px;
+  height: 40px;
+  font-family: ;
+}
+#photo {
+  border-radius: 50%;
+  width: 50%;
+  height: 400px;
+  margin-left: 10%;
+}
+.formulaire {
+  margin-left: 10%;
+}
+.etoile {
+  background-color: #000000;
+  width: 100%;
+  height: 100px;
+  color: white;
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+}
+#bouton-view {
+  width: 50%;
+  color: aliceblue;
+}
+.voir-per {
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+}
+.voir-per:hover {
+  transition: all 0.1s;
+  color: white;
+}
+#icone-etoile {
+  color: rgb(232, 248, 10);
+}
+/* fin de la section deroulent*/
+
+/* debuit de la deuxieme section*/
+.prestion-de-service {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  color: white;
+}
+.titre-service {
+  text-align: center;
+  font-size: 25px;
+}
+.choi-service,
+.prestion-de-service {
+  margin-right: 10%;
+}
+#choie {
+  background-color: #000000;
+  width: 80%;
+  height: 100px;
+  opacity: 0.5;
+  justify-items: center;
+  color: white;
+  border-radius: 0.4rem;
+}
+#icone-derouler {
+  color: green;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: Modern No 20;
+  color: black;
+}
+.bouton-view {
+  text-align: center;
+}
+#bouton-view {
+  background-color: rgb(207, 221, 15);
+  border-color: rgb(207, 221, 15);
+  color: black;
+  width: 15%;
+  height: 30px;
+  border-radius: 10px;
+}
+/* fin de la deuxieme section*/
+/*debuit de la troisieme section */
+.section-porfolios {
+}
+.titre-porfolios {
+  text-align: center;
+}
+.info-port {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#info-port {
+  border-style: solid;
+  border-radius: 10px;
+  gap: 20px;
+  padding: 5%;
+  margin: 15%;
+  margin-top: 5%;
+  height: 400px;
+}
+#profis {
+  text-align: center;
+  color: rgba(205, 219, 12, 0.918);
+}
+h1 {
+}
+
+/* fin de la troisieme section*/
+/*debut de la quatrieme section*/
+.info-testimonial {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 10%;
+}
+#info-testimonial {
+  background-color: rgba(207, 221, 15, 0.356);
+  width: 80%;
+  height: 100px;
+  text-align: center;
+}
+#telachagement {
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  align-items: center;
+}
+/* fin de la quatrieme section*/
+/*section fixe*/
+.fixe {
+  position: fixed;
+}
+.bloc-fixe {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+.icones {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  row-gap: 10px;
+}
+
+/* fin de la section fixe*/
+
+/* fin du main */
+/*footer*/
+a {
+}
+.footer {
+  background-color: #000000;
+  color: white;
+  height: 50px;
+  width: 100%;
+  display: flex;
+}
+
+.footer-reseau {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+/* fin footer*/
+
+/* CSS Formulaire */
+#form-discuter {
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 5%;
+  border: solid;
+  border-radius: 0.4rem;
+}
+input {
+  width: 90%;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+textarea {
+  width: 90%;
+  height: 200px;
+}
+label {
+  text-align: center;
+  font-size: 30px;
+}
+#bts-envoyer {
+  background-color: yellow;
+  width: 30%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50%;
+}
+#titre-discution {
+  color: yellow;
+  text-align: center;
+}
+#platforme-form {
+  text-align: center;
+  margin-top: 5%;
+}
+.moyen-de-contact {
+  display: flex;
+  gap: 80px;
+  margin-left: 20%;
+  font-size: 50px;
+  color: rgba(205, 219, 12, 0.918);
+}
+
+/* CSS de la page login*/
+#form-login {
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 5%;
+  background-color: yellow;
+}
+.textarea-login {
+  height: 100px;
+  width: 97%;
+}
+
+#login-titre {
+  text-align: center;
+}
+#bts-validation-login {
+  width: 50%;
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 30%;
+  font-size: 20px;
+}
+#bts-validation-login:hover {
+  transition: all 0.1s;
+  background-color: rgb(73, 73, 42);
+  color: yellow;
+  font-size: 30px;
+}
+
+/* la parrie responsive*/
+@media (max-width: 900px) {
+}
+@media (max-width: 600px) {
+}
+@media (max-width: 500px) and (max-width: 900px) {
+  /*header  responsive */
+  .header {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .presentation {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 30%;
+  }
+  .prestion-de-service {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    color: white;
+  }
+  .info-port {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
